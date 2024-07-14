@@ -1,0 +1,41 @@
+.rollins-container {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://www.sensatek.com/wp-content/uploads/2022/05/background-lizard.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans";
+    color: white;
+  }
+  .logo {
+    margin-top: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .title {
+    color: white;
+    font-size: 32px;
+  }
+  .description {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #f1511b;
+    border-radius: 4px;
+    color: #f1511b;
+    background-color: transparent;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  button:hover {
+    background-color: #f1511b;
+    color: white;
+}

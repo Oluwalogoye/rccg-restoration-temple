@@ -1,0 +1,60 @@
+/* ContactForm.css */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  /* background: #f9f9f9; */
+  border-radius: 8px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 12px;
+  position: relative;
+  text-align: center;
+  transition: all .15s linear;
+  background-color: #ff7a59;
+  border-color: #ff7a59;
+  color: #fff;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 12px 24px;
+  max-width: 125px;
+}
+
+.contact-form button:hover {
+  background-color: rgb(255, 132, 106);
+}
+
+/* Adjust the styling as needed to match your site's theme */

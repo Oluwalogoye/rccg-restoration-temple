@@ -1,0 +1,1 @@
+export const originalPath = "/rccg-restoration-temple";

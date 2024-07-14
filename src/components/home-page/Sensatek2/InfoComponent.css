@@ -1,0 +1,58 @@
+/* AdvisorComponent.css */
+.advisor-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px; /* Adjust based on the screenshot */
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+   
+  /* background-image: url("https://www.sensatek.com/wp-content/themes/Sensatek%20Theme/src/images/watermarker-details-homeintro1.png"); */
+  background-size: 290px;
+  background-position: left top;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.details {
+  position: absolute;
+  right: 13%;
+  top: -90px;
+}
+
+@media (max-width: 992px) {
+  .details {
+    width: 160px;
+    right: auto;
+    left: 20px;
+  }
+}
+
+/* .details {
+  width: 160px;
+  right: auto;
+  left: 20px;
+} */
+
+.details img {
+  max-width: 100%;
+}
+
+.advisor-header {
+  border-bottom: 3px solid #008609; /* Use color picker to get exact color from the screenshot */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.advisor-header h1 {
+  font-size: 24px; /* Adjust size to match screenshot */
+  color: #000000; /* Adjust color to match screenshot */
+  font-weight: bold;
+}
+
+.advisor-content p {
+  color: #333333; /* Adjust color to match screenshot */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}

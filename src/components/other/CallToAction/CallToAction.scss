@@ -1,0 +1,91 @@
+.rollins-container {
+  // width: 100vw;
+  min-height: 80vh; /* changed from height to min-height */ 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  overflow: auto; /* new property to add scrollbar if content overflows */
+   
+  padding: 80px 50px;
+  .logo {
+    margin-top: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .logo.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .title, .description {
+    
+    text-shadow: #008609 1px 0 10px;
+  }
+  .title {
+    color: white;
+    font-size: 44px;  
+  }
+  .description {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+     
+    width: 100%;
+  }
+  button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #008609;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #008609;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+
+    cursor: pointer;
+  }
+
+  button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      background: rgb(0, 53, 9);
+      transition: left 0.3s ease-in-out, right 0.3s ease-in-out;
+      z-index: 0;
+  }
+
+  button:hover::before {
+      left: 0;
+      right: 0;
+  }
+
+  button span {
+      position: relative;
+      z-index: 1; /* Ensures text stays above the ::before element */
+  }
+}
+
+.pediatrician-background {
+  background-image: url('restoration_congregation.jpg');
+  // background-image: url('restoration_involved_background.jpg');
+}
+.connected-background {
+  background-image: url('connected.jpg');
+}
+.vet-background {
+  background-image: url('vet.png');
+}
+.involved-background {
+  // background-image: url('https://rccgrestorationarena.org/wp-content/uploads/2018/09/4724dd70-b5fe-4ee4-a846-8d7e481f4db7.jpg');
+  background-image: url('restoration_involved_background.jpg');
+}
+

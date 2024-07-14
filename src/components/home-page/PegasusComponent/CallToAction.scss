@@ -1,0 +1,42 @@
+.rollins-container {
+  // width: 100vw;
+  min-height: 80vh; /* changed from height to min-height */ 
+  // background-image: url('pediatrician.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  overflow: auto; /* new property to add scrollbar if content overflows */
+  .logo {
+    margin-top: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .title {
+    color: white;
+    font-size: 32px;
+  }
+  .description {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ffcd00;
+    border-radius: 4px;
+    color: #ffcd00;
+    background-color: transparent;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  button:hover {
+    background-color: #ffcd00;
+    color: white;
+}
+}

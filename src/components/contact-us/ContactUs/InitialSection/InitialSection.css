@@ -1,0 +1,52 @@
+/* YourPage.css */
+.page-container {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-image: url("https://rccgjesushouseny.org/wp-content/uploads/2018/07/breadcrumb1_bg.jpg");  background-size: cover;
+  background-position: center;
+
+  min-height: 80vh; /* changed from height to min-height */ 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  overflow: auto;
+
+    padding: 80px 50px;
+
+    text-shadow: #008609 1px 0 10px;
+
+}
+
+.page-header {
+  /* styles for header */
+}
+
+.main-content {
+  /* styles for main content */
+  width: 100%;
+}
+
+.page-footer {
+  /* styles for footer */
+  width: 100%;
+}
+/* YourPage.css */
+.page-footer .fa-icon {
+  margin-right: 10px;
+}
+
+.page-footer p {
+  display: flex;
+  align-items: center;
+  
+  font-size: 18px;
+  /* additional styling */
+}
+.page-footer p a {
+  text-decoration: none;  align-items: center;
+  color: inherit;
+}

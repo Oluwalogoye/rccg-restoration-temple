@@ -1,0 +1,32 @@
+.pressReleaseContainer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+
+.pressReleaseContainer h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.pressReleaseContainer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.pressReleaseContainer p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.noPressRelease {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #999;
+}
